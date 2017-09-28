@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML中用JS调用OC方法</title>
+        <style>
+            
+            #div1 {
+                background-color:#ccc;
+                width:100px;
+                height:100px;
+                position:absolute;
+                top:400px
+            }
+        
+        
+            </style>
+        
+        <meta http-equiv="Content-Type"content="text/html; charset=UTF-8">
+            <script>
+                
+                function getImg(url) {
+                    
+                    var oDiv = document.getElementById("div1");
+                    var oImg = document.getElementById("img1");
+                    
+                    oImg.src = url;
+                    
+                }
+            
+                </script>
+            </head>
+    <body>
+        
+        <p id="div1">
+        <img id="img1" src="" height="200" width="200" />
+        </p>
+        
+        <br/>
+        
+        <a href='ios://openMyCamera'>打开相机</a><br><br/>
+        
+    </body>
+    
+</html>

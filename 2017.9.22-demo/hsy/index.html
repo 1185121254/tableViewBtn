@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <title>Flex 布局</title>
+  <meta  charset="utf-8"> 
+  <meta name="viewport" content="width=768,user-scalable=no">
+
+  </head> 
+  <style type="text/css">
+      ul ,li{
+          list-style: none;
+      }
+
+       .menu-bar{
+          /*float: right;*/
+          /*margin-right: 100px;*/
+          margin-top: 20px;
+
+       }
+
+      .menu{
+        display: flex;
+
+      }
+
+       .menu li{
+          background-color: #27b1b4;
+          width:  100px;
+          height: 30px;
+          line-height: 30px;
+          text-align: center;
+          margin-left: 5px;
+       }
+
+       .menu li  a{
+         display: block;
+         text-decoration: none;
+         color: #ffffff;
+
+       }
+
+       .menu li  a:hover{
+              background-color: #94d668;
+        }
+        
+        .menu-bar2{
+        	float: top;
+        	margin-top: 50;
+        	
+        }
+        .menu2 li{
+        	  background-color: #27b1b4;
+          width:  100px;
+          height: 30px;
+          line-height: 30px;
+          text-align: center;
+          margin-top: 5px;
+        }
+        .menu2 li a{
+        	 display: block;
+         text-decoration: none;
+         color: #ffffff;
+        }
+        .menu2 li  a:hover{
+              background-color: #94d668;
+        }
+    
+  </style>
+
+  <body>
+   <div>
+      <div class="menu-bar">
+         <ul class="menu">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">产品</a></li>
+            <li><a href="#">视频</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">联系我们</a></li> 
+         </ul>  
+      </div>
+      
+      <div class="menu-bar2">
+       	<ul class="menu2">
+    	      <li><a href="#">产品</a></li>
+    		  <li><a href="#">介绍</a></li>
+    		  <li><a href="#">关于</a></li>
+    		  <li><a href="#">我们</a></li>
+    	    </ul>
+     </div>
+      
+      <div>
+      	<img src="img/quyuan.jpg" width="200px" height="200px" margin-left="100px"></img>
+      </div>
+      
+   </div>
+    
+  </body>
+</html>

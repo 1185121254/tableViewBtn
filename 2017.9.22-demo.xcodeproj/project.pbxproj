@@ -13,6 +13,13 @@
 		8EC453F61F74E1B1008FD85E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC453F41F74E1B1008FD85E /* Main.storyboard */; };
 		8EC453F81F74E1B1008FD85E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC453F71F74E1B1008FD85E /* Assets.xcassets */; };
 		8EC453FB1F74E1B2008FD85E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC453F91F74E1B2008FD85E /* LaunchScreen.storyboard */; };
+		8EC455E31F7501B0008FD85E /* .project in Resources */ = {isa = PBXBuildFile; fileRef = 8EC455DD1F7501B0008FD85E /* .project */; };
+		8EC455E51F7501B0008FD85E /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 8EC455E11F7501B0008FD85E /* index.html */; };
+		8EC455EF1F75086A008FD85E /* img in Resources */ = {isa = PBXBuildFile; fileRef = 8EC455EE1F75086A008FD85E /* img */; };
+		8EC455F41F7A1E91008FD85E /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC455F31F7A1E90008FD85E /* NextViewController.m */; };
+		8EC455F71F7A2684008FD85E /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC455F61F7A2684008FD85E /* CustomView.m */; };
+		8EC455F91F7B558C008FD85E /* home.html in Resources */ = {isa = PBXBuildFile; fileRef = 8EC455F81F7B558A008FD85E /* home.html */; };
+		8EC455FB1F7B8521008FD85E /* camera.html in Resources */ = {isa = PBXBuildFile; fileRef = 8EC455FA1F7B8521008FD85E /* camera.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,15 @@
 		8EC453F71F74E1B1008FD85E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EC453FA1F74E1B2008FD85E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EC453FC1F74E1B2008FD85E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC455DD1F7501B0008FD85E /* .project */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = .project; sourceTree = "<group>"; };
+		8EC455E11F7501B0008FD85E /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		8EC455EE1F75086A008FD85E /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		8EC455F21F7A1E90008FD85E /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		8EC455F31F7A1E90008FD85E /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		8EC455F51F7A2684008FD85E /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		8EC455F61F7A2684008FD85E /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		8EC455F81F7B558A008FD85E /* home.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = home.html; sourceTree = "<group>"; };
+		8EC455FA1F7B8521008FD85E /* camera.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = camera.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +58,7 @@
 		8EC453DF1F74E1B1008FD85E = {
 			isa = PBXGroup;
 			children = (
+				8EC455DC1F7501B0008FD85E /* hsy */,
 				8EC453EA1F74E1B1008FD85E /* 2017.9.22-demo */,
 				8EC453E91F74E1B1008FD85E /* Products */,
 			);
@@ -63,6 +80,10 @@
 				8EC453F11F74E1B1008FD85E /* ViewController.h */,
 				8EC453F21F74E1B1008FD85E /* ViewController.m */,
 				8EC453F41F74E1B1008FD85E /* Main.storyboard */,
+				8EC455F21F7A1E90008FD85E /* NextViewController.h */,
+				8EC455F31F7A1E90008FD85E /* NextViewController.m */,
+				8EC455F51F7A2684008FD85E /* CustomView.h */,
+				8EC455F61F7A2684008FD85E /* CustomView.m */,
 				8EC453F71F74E1B1008FD85E /* Assets.xcassets */,
 				8EC453F91F74E1B2008FD85E /* LaunchScreen.storyboard */,
 				8EC453FC1F74E1B2008FD85E /* Info.plist */,
@@ -75,8 +96,37 @@
 			isa = PBXGroup;
 			children = (
 				8EC453EC1F74E1B1008FD85E /* main.m */,
+				8EC455F81F7B558A008FD85E /* home.html */,
+				8EC455FA1F7B8521008FD85E /* camera.html */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EC455DC1F7501B0008FD85E /* hsy */ = {
+			isa = PBXGroup;
+			children = (
+				8EC455DD1F7501B0008FD85E /* .project */,
+				8EC455EE1F75086A008FD85E /* img */,
+				8EC455DE1F7501B0008FD85E /* css */,
+				8EC455E11F7501B0008FD85E /* index.html */,
+				8EC455E21F7501B0008FD85E /* js */,
+			);
+			name = hsy;
+			path = "2017.9.22-demo/hsy";
+			sourceTree = "<group>";
+		};
+		8EC455DE1F7501B0008FD85E /* css */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		8EC455E21F7501B0008FD85E /* js */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = js;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +188,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC455F91F7B558C008FD85E /* home.html in Resources */,
+				8EC455EF1F75086A008FD85E /* img in Resources */,
+				8EC455E51F7501B0008FD85E /* index.html in Resources */,
 				8EC453FB1F74E1B2008FD85E /* LaunchScreen.storyboard in Resources */,
+				8EC455E31F7501B0008FD85E /* .project in Resources */,
 				8EC453F81F74E1B1008FD85E /* Assets.xcassets in Resources */,
 				8EC453F61F74E1B1008FD85E /* Main.storyboard in Resources */,
+				8EC455FB1F7B8521008FD85E /* camera.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +206,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EC455F71F7A2684008FD85E /* CustomView.m in Sources */,
 				8EC453F31F74E1B1008FD85E /* ViewController.m in Sources */,
+				8EC455F41F7A1E91008FD85E /* NextViewController.m in Sources */,
 				8EC453F01F74E1B1008FD85E /* AppDelegate.m in Sources */,
 				8EC453ED1F74E1B1008FD85E /* main.m in Sources */,
 			);
